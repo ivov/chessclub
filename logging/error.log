@@ -1,0 +1,638 @@
+
+{ level: 'error',
+  message:
+   'duplicate key value violates unique constraint "users_username_unique_constraint"',
+  timestamp: '2019-05-13T22:40:32.505Z' }
+{ level: 'error',
+  message:
+   'duplicate key value violates unique constraint "users_email_key"',
+  timestamp: '2019-05-13T22:41:12.420Z' }
+{ level: 'error',
+  message: 'userAlreadyExists is not defined',
+  timestamp: '2019-05-13T22:42:42.341Z' }
+{ level: 'error',
+  message:
+   'duplicate key value violates unique constraint "users_username_unique_constraint"',
+  timestamp: '2019-05-13T22:42:53.600Z' }
+{ level: 'error',
+  message:
+   'duplicate key value violates unique constraint "users_username_unique_constraint"',
+  timestamp: '2019-05-13T22:43:39.895Z' }
+{ level: 'error',
+  message:
+   'duplicate key value violates unique constraint "users_username_unique_constraint"',
+  timestamp: '2019-05-13T22:44:17.515Z' }
+{ level: 'error',
+  message:
+   'duplicate key value violates unique constraint "users_username_unique_constraint"',
+  timestamp: '2019-05-13T22:44:27.701Z' }
+{ level: 'error',
+  message: 'Cannot read property \'email\' of undefined',
+  timestamp: '2019-05-13T22:48:02.070Z' }
+{ level: 'error',
+  message: 'Cannot read property \'email\' of undefined',
+  timestamp: '2019-05-13T22:48:24.690Z' }
+{ level: 'error',
+  message: 'Cannot read property \'email\' of undefined',
+  timestamp: '2019-05-13T22:48:39.604Z' }
+{ level: 'error',
+  message: 'Cannot read property \'email\' of undefined',
+  timestamp: '2019-05-13T22:48:53.563Z' }
+{ level: 'error',
+  message: 'emailAlreadyExists is not defined',
+  timestamp: '2019-05-13T22:49:12.691Z' }
+{ level: 'error',
+  message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-13T22:52:24.658Z' }
+{ level: 'error',
+  message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-13T22:52:44.920Z' }
+{ level: 'error',
+  message: 'emailAlreadyExists is not defined',
+  timestamp: '2019-05-13T22:53:06.225Z' }
+{ level: 'error',
+  message: '"username" is read-only',
+  timestamp: '2019-05-13T22:54:23.708Z' }
+{ level: 'error',
+  message: 'emailAlreadyExists is not defined',
+  timestamp: '2019-05-13T22:54:33.800Z' }
+{ level: 'error',
+  message: 'emailAlreadyExists is not defined',
+  timestamp: '2019-05-13T22:54:42.363Z' }
+{ level: 'error',
+  message: 'emailAlreadyExists is not defined',
+  timestamp: '2019-05-13T22:55:26.590Z' }
+{ level: 'error',
+  message: 'Cannot read property \'username\' of undefined',
+  timestamp: '2019-05-13T22:56:01.010Z' }
+{ level: 'error',
+  message: 'username is not defined',
+  timestamp: '2019-05-13T23:00:05.587Z' }
+{ level: 'error',
+  message: 'Cannot read property \'username\' of undefined',
+  timestamp: '2019-05-13T23:00:34.835Z' }
+{ level: 'error',
+  message: 'Cannot read property \'username\' of undefined',
+  timestamp: '2019-05-13T23:05:36.269Z' }
+{ level: 'error',
+  message: 'Cannot read property \'username\' of undefined',
+  timestamp: '2019-05-13T23:09:40.968Z' }
+{ level: 'error',
+  message: 'email is not defined',
+  timestamp: '2019-05-13T23:10:27.819Z' }
+{ level: 'error',
+  message: 'email is not defined',
+  timestamp: '2019-05-13T23:11:04.302Z' }
+{ level: 'error',
+  message: 'email is not defined',
+  timestamp: '2019-05-13T23:11:27.545Z' }
+{ level: 'error',
+  message: 'username is not defined',
+  timestamp: '2019-05-13T23:12:11.647Z' }
+{ message: 'Cannot read property \'username\' of undefined',
+  timestamp: '2019-05-13T23:31:35.074Z' }
+{ message: 'data and hash arguments required',
+  timestamp: '2019-05-13T23:38:19.466Z' }
+{ message: 'data and hash arguments required',
+  timestamp: '2019-05-13T23:39:00.412Z' }
+{ message: 'data and hash arguments required',
+  timestamp: '2019-05-13T23:40:07.342Z' }
+{ message: 'data and hash arguments required',
+  timestamp: '2019-05-13T23:40:23.763Z' }
+{ message: 'username is not defined',
+  timestamp: '2019-05-13T23:40:37.523Z' }
+{ message: 'username is not defined',
+  timestamp: '2019-05-13T23:41:01.478Z' }
+{ message:
+   'new row for relation "users" violates check constraint "users_check"',
+  timestamp: '2019-05-17T20:02:26.887Z' }
+{ message: 'There is an empty field.',
+  timestamp: '2019-05-17T20:09:06.303Z' }
+{ message: 'There is an empty field.',
+  timestamp: '2019-05-17T20:09:11.390Z' }
+{ message: 'isAdmin is not defined',
+  timestamp: '2019-05-17T20:11:00.356Z' }
+{ message:
+   'bind message supplies 3 parameters, but prepared statement "" requires 4',
+  timestamp: '2019-05-17T20:11:28.228Z' }
+{ message:
+   'null value in column "username" violates not-null constraint',
+  timestamp: '2019-05-17T21:27:52.441Z' }
+{ message: 'token is not defined',
+  timestamp: '2019-05-18T00:38:56.387Z' }
+{ message: 'token is not defined',
+  timestamp: '2019-05-18T00:39:27.352Z' }
+{ message: 'jwt is not defined',
+  timestamp: '2019-05-18T00:41:44.716Z' }
+{ message: 'storedIsAdmin is not defined',
+  timestamp: '2019-05-18T00:42:15.606Z' }
+{ message: 'username is not defined',
+  timestamp: '2019-05-18T01:14:03.658Z' }
+{ message: 'incomingUsername is not defined',
+  timestamp: '2019-05-18T01:15:24.665Z' }
+{ message: 'incomingUsername is not defined',
+  timestamp: '2019-05-18T01:19:48.136Z' }
+{ message: 'incomingUsername is not defined',
+  timestamp: '2019-05-18T01:42:08.311Z' }
+{ message: 'incomingUsername is not defined',
+  timestamp: '2019-05-18T01:57:01.909Z' }
+{ message: 'incomingUsername is not defined',
+  timestamp: '2019-05-18T02:00:52.583Z' }
+{ message:
+   'bind message supplies 7 parameters, but prepared statement "" requires 6',
+  timestamp: '2019-05-23T01:50:09.044Z' }
+{ message:
+   'bind message supplies 7 parameters, but prepared statement "" requires 6',
+  timestamp: '2019-05-23T01:52:52.131Z' }
+{ message:
+   'bind message supplies 7 parameters, but prepared statement "" requires 6',
+  timestamp: '2019-05-23T01:54:22.507Z' }
+{ message: 'invalid input syntax for integer: ""',
+  timestamp: '2019-05-23T01:56:39.396Z' }
+{ message:
+   'new row for relation "games" violates check constraint "games_result_check"',
+  timestamp: '2019-05-23T01:59:44.190Z' }
+{ message: 'null value in column "moves" violates not-null constraint',
+  timestamp: '2019-05-23T14:19:47.524Z' }
+{ message: 'data and salt arguments required',
+  timestamp: '2019-05-23T14:41:09.017Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:00:40.288Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:00:53.958Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:01:58.074Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:03:10.655Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:03:27.980Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:03:39.277Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:09:55.457Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:11:31.757Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:12:11.854Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:12:34.162Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:13:04.314Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:15:47.550Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:33:44.832Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:34:07.882Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:34:49.638Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:36:53.687Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:37:36.497Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:38:58.021Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:43:10.494Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:43:13.806Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:43:38.120Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:43:51.557Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-23T15:44:03.160Z' }
+{ message:
+   'invalid input syntax for integer: "{"_c":[],"_s":0,"_d":false,"_h":0,"_n":false}"',
+  timestamp: '2019-05-23T15:58:50.378Z' }
+{ message: 'invalid input syntax for integer: "mid"',
+  timestamp: '2019-05-23T16:02:45.376Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-05-23T16:12:58.296Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-05-23T16:13:29.920Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-05-23T16:14:16.317Z' }
+{ message:
+   'invalid input syntax for integer: "{"id":96,"username":"sapurrrr"}"',
+  timestamp: '2019-05-23T16:36:33.184Z' }
+{ message:
+   'insert or update on table "games" violates foreign key constraint "games_fk"',
+  timestamp: '2019-05-23T16:40:51.965Z' }
+{ message:
+   'insert or update on table "games" violates foreign key constraint "games_fk"',
+  timestamp: '2019-05-23T16:42:27.638Z' }
+{ message:
+   'insert or update on table "games" violates foreign key constraint "games_fk"',
+  timestamp: '2019-05-23T16:46:17.724Z' }
+{ message:
+   'invalid input syntax for integer: "{"id":77,"username":"mod"}"',
+  timestamp: '2019-05-24T18:25:02.113Z' }
+{ message:
+   'invalid input syntax for integer: "{"id":96,"username":"sapurrrr"}"',
+  timestamp: '2019-05-24T18:57:26.714Z' }
+{ message:
+   'invalid input syntax for integer: "{"id":77,"username":"mod"}"',
+  timestamp: '2019-05-24T18:58:02.881Z' }
+{ message:
+   'invalid input syntax for integer: "{"id":77,"username":"mod"}"',
+  timestamp: '2019-05-24T18:59:59.172Z' }
+{ message:
+   'invalid input syntax for integer: "{"id":77,"username":"mod"}"',
+  timestamp: '2019-05-24T19:13:49.409Z' }
+{ message:
+   'invalid input syntax for integer: "{"id":101,"username":"sap!ur"}"',
+  timestamp: '2019-05-24T19:16:13.124Z' }
+{ message:
+   'invalid input syntax for integer: "{"id":79,"username":"sapur"}"',
+  timestamp: '2019-05-24T19:17:05.914Z' }
+{ message:
+   'invalid input syntax for integer: "{"id":77,"username":"mod"}"',
+  timestamp: '2019-05-24T19:18:29.717Z' }
+{ message:
+   'invalid input syntax for integer: "{"id":79,"username":"sapur"}"',
+  timestamp: '2019-05-24T19:20:01.880Z' }
+{ message:
+   'invalid input syntax for integer: "{"id":96,"username":"sapurrrr"}"',
+  timestamp: '2019-05-24T19:22:24.730Z' }
+{ message:
+   'Invalid status code: [Event ""]#[Site "Buenos Aires ARG"]#[Date "2019.4.24"]#[White "sapur"]#[Black "sap!ur"]#[Result "1/2-1/2"]##1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.f4 c5 6.c3 Nc6 7.Ndf3 cxd4 8.cxd4 f6 9.Bd3 Bb4+ 10.Bd2 Qb6 11.Ne2 fxe5 12.fxe5 O-O 13.a3 Be7 14.Qc2 Rxf3 15.gxf3 Nxd4 16.Nxd4 Qxd4 17.O-O-O Nxe5 18.Bxh7+ Kh8 19.Kb1 Qh4 20.Bc3 Bf6 21.f4 Nc4 22.Bxf6 Qxf6 23.Bd3 b5 24.Qe2 Bd7 25.Rhg1 Be8 26.Rde1 Bf7 27.Rg3 Rc8 28.Reg1 Nd6 29.Rxg7 Nf5 30.R7g5 Rc7 31.Bxf5 exf5 32.Rh5+  1-0',
+  timestamp: '2019-05-24T20:24:43.835Z' }
+{ message:
+   'Invalid status code: [Event ""]#[Site "Buenos Aires ARG"]#[Date "2019.4.24"]#[White "sapur"]#[Black "sap!ur"]#[Result "1/2-1/2"]##1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.f4 c5 6.c3 Nc6 7.Ndf3 cxd4 8.cxd4 f6 9.Bd3 Bb4+ 10.Bd2 Qb6 11.Ne2 fxe5 12.fxe5 O-O 13.a3 Be7 14.Qc2 Rxf3 15.gxf3 Nxd4 16.Nxd4 Qxd4 17.O-O-O Nxe5 18.Bxh7+ Kh8 19.Kb1 Qh4 20.Bc3 Bf6 21.f4 Nc4 22.Bxf6 Qxf6 23.Bd3 b5 24.Qe2 Bd7 25.Rhg1 Be8 26.Rde1 Bf7 27.Rg3 Rc8 28.Reg1 Nd6 29.Rxg7 Nf5 30.R7g5 Rc7 31.Bxf5 exf5 32.Rh5+  1-0',
+  timestamp: '2019-05-24T20:24:48.859Z' }
+{ message:
+   'Invalid status code: [Event ""]#[Site "Buenos Aires ARG"]#[Date "2019.4.24"]#[White "sapur"]#[Black "sap!ur"]#[Result "1/2-1/2"]##1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.f4 c5 6.c3 Nc6 7.Ndf3 cxd4 8.cxd4 f6 9.Bd3 Bb4+ 10.Bd2 Qb6 11.Ne2 fxe5 12.fxe5 O-O 13.a3 Be7 14.Qc2 Rxf3 15.gxf3 Nxd4 16.Nxd4 Qxd4 17.O-O-O Nxe5 18.Bxh7+ Kh8 19.Kb1 Qh4 20.Bc3 Bf6 21.f4 Nc4 22.Bxf6 Qxf6 23.Bd3 b5 24.Qe2 Bd7 25.Rhg1 Be8 26.Rde1 Bf7 27.Rg3 Rc8 28.Reg1 Nd6 29.Rxg7 Nf5 30.R7g5 Rc7 31.Bxf5 exf5 32.Rh5+  1-0',
+  timestamp: '2019-05-24T20:24:53.867Z' }
+{ message:
+   'Invalid status code: [Event ""]#[Site "Buenos Aires ARG"]#[Date "2019.4.24"]#[White "sapur"]#[Black "sap!ur"]#[Result "1/2-1/2"]##1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.f4 c5 6.c3 Nc6 7.Ndf3 cxd4 8.cxd4 f6 9.Bd3 Bb4+ 10.Bd2 Qb6 11.Ne2 fxe5 12.fxe5 O-O 13.a3 Be7 14.Qc2 Rxf3 15.gxf3 Nxd4 16.Nxd4 Qxd4 17.O-O-O Nxe5 18.Bxh7+ Kh8 19.Kb1 Qh4 20.Bc3 Bf6 21.f4 Nc4 22.Bxf6 Qxf6 23.Bd3 b5 24.Qe2 Bd7 25.Rhg1 Be8 26.Rde1 Bf7 27.Rg3 Rc8 28.Reg1 Nd6 29.Rxg7 Nf5 30.R7g5 Rc7 31.Bxf5 exf5 32.Rh5+  1-0',
+  timestamp: '2019-05-24T20:25:00.259Z' }
+{ message:
+   'Invalid status code: [Event ""]#[Site "Buenos Aires ARG"]#[Date "2019.4.24"]#[White "sapur"]#[Black "sap!ur"]#[Result "1/2-1/2"]##1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.f4 c5 6.c3 Nc6 7.Ndf3 cxd4 8.cxd4 f6 9.Bd3 Bb4+ 10.Bd2 Qb6 11.Ne2 fxe5 12.fxe5 O-O 13.a3 Be7 14.Qc2 Rxf3 15.gxf3 Nxd4 16.Nxd4 Qxd4 17.O-O-O Nxe5 18.Bxh7+ Kh8 19.Kb1 Qh4 20.Bc3 Bf6 21.f4 Nc4 22.Bxf6 Qxf6 23.Bd3 b5 24.Qe2 Bd7 25.Rhg1 Be8 26.Rde1 Bf7 27.Rg3 Rc8 28.Reg1 Nd6 29.Rxg7 Nf5 30.R7g5 Rc7 31.Bxf5 exf5 32.Rh5+  1-0',
+  timestamp: '2019-05-24T20:25:05.284Z' }
+{ message:
+   'Invalid status code: [Event ""]#[Site "Buenos Aires ARG"]#[Date "2019.4.24"]#[White "sapur"]#[Black "sap!ur"]#[Result "1/2-1/2"]##1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.f4 c5 6.c3 Nc6 7.Ndf3 cxd4 8.cxd4 f6 9.Bd3 Bb4+ 10.Bd2 Qb6 11.Ne2 fxe5 12.fxe5 O-O 13.a3 Be7 14.Qc2 Rxf3 15.gxf3 Nxd4 16.Nxd4 Qxd4 17.O-O-O Nxe5 18.Bxh7+ Kh8 19.Kb1 Qh4 20.Bc3 Bf6 21.f4 Nc4 22.Bxf6 Qxf6 23.Bd3 b5 24.Qe2 Bd7 25.Rhg1 Be8 26.Rde1 Bf7 27.Rg3 Rc8 28.Reg1 Nd6 29.Rxg7 Nf5 30.R7g5 Rc7 31.Bxf5 exf5 32.Rh5+  1-0',
+  timestamp: '2019-05-24T20:25:10.296Z' }
+{ message:
+   'Invalid status code: [Event ""]#[Site "Buenos Aires ARG"]#[Date "2019.4.24"]#[White "sapur"]#[Black "sap!ur"]#[Result "1/2-1/2"]##1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.f4 c5 6.c3 Nc6 7.Ndf3 cxd4 8.cxd4 f6 9.Bd3 Bb4+ 10.Bd2 Qb6 11.Ne2 fxe5 12.fxe5 O-O 13.a3 Be7 14.Qc2 Rxf3 15.gxf3 Nxd4 16.Nxd4 Qxd4 17.O-O-O Nxe5 18.Bxh7+ Kh8 19.Kb1 Qh4 20.Bc3 Bf6 21.f4 Nc4 22.Bxf6 Qxf6 23.Bd3 b5 24.Qe2 Bd7 25.Rhg1 Be8 26.Rde1 Bf7 27.Rg3 Rc8 28.Reg1 Nd6 29.Rxg7 Nf5 30.R7g5 Rc7 31.Bxf5 exf5 32.Rh5+  1-0',
+  timestamp: '2019-05-24T20:25:15.305Z' }
+{ message:
+   'Invalid status code: [Event ""]#[Site "Buenos Aires ARG"]#[Date "2019.4.24"]#[White "sapur"]#[Black "sap!ur"]#[Result "1/2-1/2"]##1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.f4 c5 6.c3 Nc6 7.Ndf3 cxd4 8.cxd4 f6 9.Bd3 Bb4+ 10.Bd2 Qb6 11.Ne2 fxe5 12.fxe5 O-O 13.a3 Be7 14.Qc2 Rxf3 15.gxf3 Nxd4 16.Nxd4 Qxd4 17.O-O-O Nxe5 18.Bxh7+ Kh8 19.Kb1 Qh4 20.Bc3 Bf6 21.f4 Nc4 22.Bxf6 Qxf6 23.Bd3 b5 24.Qe2 Bd7 25.Rhg1 Be8 26.Rde1 Bf7 27.Rg3 Rc8 28.Reg1 Nd6 29.Rxg7 Nf5 30.R7g5 Rc7 31.Bxf5 exf5 32.Rh5+  1-0',
+  timestamp: '2019-05-24T20:25:20.312Z' }
+{ message:
+   'Invalid status code: [Event ""]#[Site "Buenos Aires ARG"]#[Date "2019.4.24"]#[White "sapur"]#[Black "sap!ur"]#[Result "1/2-1/2"]##1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.f4 c5 6.c3 Nc6 7.Ndf3 cxd4 8.cxd4 f6 9.Bd3 Bb4+ 10.Bd2 Qb6 11.Ne2 fxe5 12.fxe5 O-O 13.a3 Be7 14.Qc2 Rxf3 15.gxf3 Nxd4 16.Nxd4 Qxd4 17.O-O-O Nxe5 18.Bxh7+ Kh8 19.Kb1 Qh4 20.Bc3 Bf6 21.f4 Nc4 22.Bxf6 Qxf6 23.Bd3 b5 24.Qe2 Bd7 25.Rhg1 Be8 26.Rde1 Bf7 27.Rg3 Rc8 28.Reg1 Nd6 29.Rxg7 Nf5 30.R7g5 Rc7 31.Bxf5 exf5 32.Rh5+  1-0',
+  timestamp: '2019-05-24T20:25:25.318Z' }
+{ message:
+   'Invalid status code: [Event ""]#[Site "Buenos Aires ARG"]#[Date "2019.4.24"]#[White "sapur"]#[Black "sap!ur"]#[Result "1/2-1/2"]##1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.f4 c5 6.c3 Nc6 7.Ndf3 cxd4 8.cxd4 f6 9.Bd3 Bb4+ 10.Bd2 Qb6 11.Ne2 fxe5 12.fxe5 O-O 13.a3 Be7 14.Qc2 Rxf3 15.gxf3 Nxd4 16.Nxd4 Qxd4 17.O-O-O Nxe5 18.Bxh7+ Kh8 19.Kb1 Qh4 20.Bc3 Bf6 21.f4 Nc4 22.Bxf6 Qxf6 23.Bd3 b5 24.Qe2 Bd7 25.Rhg1 Be8 26.Rde1 Bf7 27.Rg3 Rc8 28.Reg1 Nd6 29.Rxg7 Nf5 30.R7g5 Rc7 31.Bxf5 exf5 32.Rh5+  1-0',
+  timestamp: '2019-05-24T20:25:30.333Z' }
+{ message:
+   'more than one row returned by a subquery used as an expression',
+  timestamp: '2019-05-26T20:30:39.879Z' }
+{ message: 'column reference "id" is ambiguous',
+  timestamp: '2019-05-26T21:06:59.078Z' }
+{ message: 'object is not defined',
+  timestamp: '2019-05-26T21:26:43.059Z' }
+{ message: 'Cannot read property \'push\' of undefined',
+  timestamp: '2019-05-26T21:32:54.424Z' }
+{ message: 'syntax error at or near "FROM"',
+  timestamp: '2019-05-26T21:36:05.646Z' }
+{ message: 'there is no parameter $1',
+  timestamp: '2019-05-26T21:36:22.498Z' }
+{ message: 'column reference "id" is ambiguous',
+  timestamp: '2019-05-26T21:47:01.098Z' }
+{ message: 'column reference "id" is ambiguous',
+  timestamp: '2019-05-26T21:51:19.922Z' }
+{ message: 'invalid input syntax for integer: "undefined"',
+  timestamp: '2019-05-26T22:41:52.917Z' }
+{ message: 'column reference "id" is ambiguous',
+  timestamp: '2019-05-26T22:46:01.267Z' }
+{ message: 'invalid input syntax for integer: "elegida"',
+  timestamp: '2019-05-26T22:49:01.413Z' }
+{ message: 'invalid input syntax for integer: "/partida"',
+  timestamp: '2019-05-26T22:49:36.559Z' }
+{ message: 'invalid input syntax for integer: "/partida"',
+  timestamp: '2019-05-26T22:49:52.036Z' }
+{ message: 'invalid input syntax for integer: ""',
+  timestamp: '2019-05-26T22:52:29.114Z' }
+{ message: 'invalid input syntax for integer: ""',
+  timestamp: '2019-05-26T22:53:00.622Z' }
+{ message: 'invalid input syntax for integer: ""',
+  timestamp: '2019-05-26T22:53:15.265Z' }
+{ message: 'invalid input syntax for integer: "/89"',
+  timestamp: '2019-05-26T22:54:37.313Z' }
+{ message: 'invalid input syntax for integer: "[object Object]"',
+  timestamp: '2019-05-26T23:24:32.055Z' }
+{ message: 'subquery must return only one column',
+  timestamp: '2019-05-28T19:36:37.010Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-28T19:50:37.579Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-28T19:50:45.846Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-28T19:50:52.479Z' }
+{ message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-28T19:53:06.681Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-28T20:00:26.631Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-28T20:00:48.207Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-28T20:00:53.710Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-28T23:44:48.649Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-28T23:45:01.885Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-28T23:45:29.093Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-28T23:47:10.968Z' }
+{ message: 'id is not defined',
+  timestamp: '2019-05-28T23:47:29.295Z' }
+{ message: 'column reference "id" is ambiguous',
+  timestamp: '2019-05-28T23:47:59.147Z' }
+{ message: 'column reference "id" is ambiguous',
+  timestamp: '2019-05-28T23:48:27.698Z' }
+{ message: 'column reference "id" is ambiguous',
+  timestamp: '2019-05-28T23:49:06.610Z' }
+{ message: 'column reference "id" is ambiguous',
+  timestamp: '2019-05-28T23:50:06.636Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-29T00:08:11.673Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-29T00:08:55.385Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-29T00:19:39.352Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-29T00:19:41.426Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-29T00:34:55.791Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-29T00:34:55.973Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-29T00:54:14.860Z' }
+{ message: 'whoa is not defined',
+  timestamp: '2019-05-29T00:55:10.555Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-29T00:55:43.140Z' }
+{ message: 'esult is not defined',
+  timestamp: '2019-05-29T00:56:33.104Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-29T00:59:56.165Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-29T00:59:56.167Z' }
+{ message: 'Cannot read property \'0\' of undefined',
+  timestamp: '2019-05-29T18:28:25.658Z' }
+{ message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-29T20:54:26.212Z' }
+{ message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-29T20:54:59.392Z' }
+{ message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-29T20:55:20.547Z' }
+{ message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-29T20:56:03.609Z' }
+{ message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-29T20:57:26.059Z' }
+{ message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-29T21:02:54.971Z' }
+{ message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-29T21:03:33.661Z' }
+{ message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-29T21:05:11.459Z' }
+{ message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-29T21:05:41.408Z' }
+{ message: 'Client was passed a null or undefined query',
+  timestamp: '2019-05-29T21:05:59.260Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T00:53:25.605Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T00:53:33.799Z' }
+{ message: 'column "result" of relation "games" does not exist',
+  timestamp: '2019-05-30T00:59:19.653Z' }
+{ message: 'column "result" of relation "games" does not exist',
+  timestamp: '2019-05-30T01:01:23.936Z' }
+{ message: 'column "result" of relation "games" does not exist',
+  timestamp: '2019-05-30T01:02:03.580Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:40:35.196Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:40:58.647Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:41:41.626Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:42:15.114Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:42:30.940Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:43:19.577Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:43:39.982Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:43:46.461Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:44:17.641Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:44:44.114Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:45:39.075Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:46:21.907Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:48:14.668Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:48:19.581Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:49:22.134Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:49:29.034Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:51:21.940Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:51:49.035Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:52:01.905Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:52:34.104Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:52:52.346Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:53:05.472Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:53:13.236Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:54:40.781Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:54:51.910Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:55:27.966Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:55:40.494Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:55:46.969Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:56:42.909Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:57:23.237Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:59:24.418Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T01:59:36.111Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T02:01:08.784Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T02:03:20.633Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T02:03:20.672Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T02:03:26.943Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T02:03:26.944Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T02:05:47.111Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T02:06:12.783Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T02:33:26.969Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T02:33:26.979Z' }
+{ message: 'invalid input syntax for integer: "NaN"',
+  timestamp: '2019-05-30T03:23:05.557Z' }
+{ message: '"logfile" is read-only',
+  timestamp: '2019-06-02T20:35:53.289Z' }
+{ message: '"logfile" is read-only',
+  timestamp: '2019-06-02T20:36:01.300Z' }
+{ message: '"logfile" is read-only',
+  timestamp: '2019-06-02T20:36:31.387Z' }
+{ message: '"logfile" is read-only',
+  timestamp: '2019-06-02T20:36:37.196Z' }
+{ message: 'Cannot read property \'isAdmin\' of undefined',
+  timestamp: '2019-06-02T21:02:57.431Z' }
+{ message: 'Cannot read property \'isAdmin\' of undefined',
+  timestamp: '2019-06-02T21:03:46.675Z' }
+{ message: 'Cannot read property \'isAdmin\' of undefined',
+  timestamp: '2019-06-02T21:04:04.305Z' }
+{ message: 'Cannot read property \'isAdmin\' of undefined',
+  timestamp: '2019-06-02T21:04:42.631Z' }
+{ message: 'Cannot read property \'isAdmin\' of undefined',
+  timestamp: '2019-06-02T21:09:11.755Z' }
+{ message: 'Cannot read property \'isAdmin\' of undefined',
+  timestamp: '2019-06-02T21:09:34.886Z' }
+{ message: 'Cannot read property \'is_admin\' of undefined',
+  timestamp: '2019-06-02T21:10:06.621Z' }
+{ message: 'Cannot read property \'isAdmin\' of undefined',
+  timestamp: '2019-06-02T21:10:57.816Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:15:08.771Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:15:08.776Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:15:33.829Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:15:33.831Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:15:46.106Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:15:46.108Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:15:59.688Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:15:59.694Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:16:24.226Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:16:24.231Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:16:42.382Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:16:42.398Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:17:39.652Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:17:39.692Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:18:30.652Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:18:30.654Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:18:40.783Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:18:40.801Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:18:57.474Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:18:57.502Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:19:08.943Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:19:08.951Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:19:16.697Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:19:16.700Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:21:57.077Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:21:57.082Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:22:29.221Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:22:29.225Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:26:10.821Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:26:10.827Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:26:16.955Z' }
+{ message: 'Cannot read property \'id\' of undefined',
+  timestamp: '2019-06-03T19:26:16.971Z' }
+{ message: 'Client was passed a null or undefined query',
+  timestamp: '2019-06-03T19:26:32.038Z' }
+{"message":"cleanLogfile is not defined","timestamp":"2019-07-01T18:18:18.606Z"}
+{"message":"commaSeparatedLogfile.reverse is not a function","timestamp":"2019-07-01T18:37:59.878Z"}
+{"message":"commaSeparatedLogfile.reverse is not a function","timestamp":"2019-07-01T18:38:24.420Z"}
+{"message":"commaSeparatedLogfile.reverse is not a function","timestamp":"2019-07-01T18:38:49.759Z"}
+{"message":"null value in column \"winner\" violates not-null constraint","timestamp":"2019-07-01T20:05:05.738Z"}
+{"message":"there is no parameter $1","timestamp":"2019-07-05T23:07:09.796Z"}
+{"message":"there is no parameter $1","timestamp":"2019-07-05T23:07:45.638Z"}
+{"message":"there is no parameter $1","timestamp":"2019-07-05T23:07:53.889Z"}
+{"message":"there is no parameter $1","timestamp":"2019-07-05T23:08:18.604Z"}
+{"message":"there is no parameter $1","timestamp":"2019-07-05T23:08:48.171Z"}
+{"message":"there is no parameter $1","timestamp":"2019-07-05T23:08:58.190Z"}
+{"message":"there is no parameter $1","timestamp":"2019-07-05T23:09:14.555Z"}
+{"message":"there is no parameter $1","timestamp":"2019-07-05T23:09:36.919Z"}
+{"message":"there is no parameter $1","timestamp":"2019-07-05T23:11:00.684Z"}
+{"message":"there is no parameter $1","timestamp":"2019-07-05T23:11:41.039Z"}
+{"message":"there is no parameter $1","timestamp":"2019-07-05T23:11:58.342Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-07-19T13:43:50.817Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-07-19T13:44:22.526Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-07-19T13:45:17.726Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-07-19T13:45:21.371Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-07-19T13:45:31.375Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-07-19T13:48:19.998Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-07-19T13:48:51.324Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-07-19T13:52:13.447Z"}
+{"message":"expected \"Content-Type\" matching /json/, got \"text/html; charset=utf-8\"","timestamp":"2019-07-19T18:08:03.031Z"}
+{"message":"expected \"Content-Type\" matching /json/, got \"text/html; charset=utf-8\"","timestamp":"2019-07-19T18:08:40.184Z"}
+{"message":"invalid input syntax for integer: \"6qmt1e\"","timestamp":"2019-07-20T00:24:33.303Z"}
+{"message":"invalid input syntax for integer: \"tsnj2\"","timestamp":"2019-07-20T00:24:53.211Z"}
+{"message":"Caught error after test environment was torn down\n\nread ECONNRESET","timestamp":"2019-07-20T04:07:30.625Z"}
+{"message":"Caught error after test environment was torn down\n\nread ECONNRESET","timestamp":"2019-07-20T04:08:37.070Z"}
+{"message":"Caught error after test environment was torn down\n\nread ECONNRESET","timestamp":"2019-07-20T04:10:15.055Z"}
+{"message":"write after end","timestamp":"2019-07-22T19:43:48.868Z"}
+{"message":"write after end","timestamp":"2019-07-22T21:10:33.988Z"}
+{"message":"write after end","timestamp":"2019-07-22T21:13:05.823Z"}
+{"message":"write after end","timestamp":"2019-07-22T21:14:29.841Z"}
+{"message":"write after end","timestamp":"2019-07-22T21:16:57.119Z"}
+{"message":"write after end","timestamp":"2019-07-22T21:17:17.917Z"}
+{"message":"write after end","timestamp":"2019-07-22T21:19:42.945Z"}
+{"message":"write after end","timestamp":"2019-07-22T21:20:47.169Z"}
+{"message":"write after end","timestamp":"2019-07-22T21:26:00.960Z"}
+{"message":"write after end","timestamp":"2019-07-22T21:27:49.178Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-11-03T00:49:35.041Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-11-03T01:02:03.680Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-11-03T01:02:39.669Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-11-03T01:03:00.032Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-11-03T01:03:33.699Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-11-03T01:06:34.074Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-11-03T01:07:57.073Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-11-03T01:17:22.699Z"}
+{"message":"password authentication failed for user \"IvanOv\"","timestamp":"2019-11-03T01:19:29.299Z"}

@@ -1,0 +1,721 @@
+body {
+  background-color: #f2f4f8;
+  margin: 0;
+  padding: 0;
+  font-family: "Philosopher", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-color: #323232;
+  color: white;
+  height: 4.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  font-family: "Philosopher", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.mdi {
+  font-family: "Material Icons";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#header-contents {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#header-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#header-logo-title {
+  font-size: 1.15em;
+  margin-bottom: 3px;
+}
+
+#header-logo-image {
+  margin-right: 0.7em;
+}
+
+#header-reglog-container,
+#header-reglog-container a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#reglog-icon {
+  font-size: 1.5em;
+  margin-left: 2em;
+  width: 30px;
+  height: 30px;
+}
+
+#subheader {
+  height: 5em;
+  background-color: #81a1c1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#subheader div {
+  margin-left: 1em;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#subheader div:hover {
+  color: black;
+}
+
+#subheader div.selected {
+  background-color: white;
+  color: #81a1c1;
+}
+
+#subheader div span.mdi {
+  font-size: 1.5em;
+  margin-right: 0.25em;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 4em;
+  margin-bottom: 2.5em;
+}
+
+#nav-contents {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 0.95em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #81a1c1;
+  font-weight: bold;
+}
+/* 
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  nav a:not(*:root),
+  .chrome {
+    font-weight: normal;
+  }
+} */
+
+#title-and-board {
+  display: flex;
+  flex-direction: column;
+}
+
+#myBoard {
+  width: 400px;
+}
+
+.board-title-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #d8dee9;
+  border-radius: 10px;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.board-title-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.board-title-line div span.mdi {
+  margin-right: 0.3em;
+}
+
+#board-table {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.5em;
+  background-color: #d8dee9;
+  border-radius: 10px;
+  padding: 0.5em;
+  width: 17em;
+}
+
+#board-table-left-half div,
+#board-table-right-half div {
+  padding: 0.4em 1em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#board-table-left-half div:hover,
+#board-table-right-half div:hover {
+  background-color: #5e81ac;
+  color: white;
+}
+
+#board-table-left-half div.selected,
+#board-table-right-half div.selected {
+  background-color: #5e81ac;
+  color: white;
+}
+
+#board-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1.5em;
+}
+
+.board-controls-button {
+  font-family: "Philosopher", sans-serif;
+  color: white;
+  font-size: 1em;
+  background-color: #5e81ac;
+  border-radius: 15px;
+  padding: 0.5em 0.6em;
+  border: 0;
+  cursor: pointer;
+  width: 6em;
+}
+
+#board-controls-button-disabled {
+  background-color: #d8dee9;
+  cursor: default;
+}
+
+.board-controls-button span {
+  margin-right: 0.25em;
+}
+
+.infocard-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 60%;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 0;
+  background-color: white;
+}
+
+.infocard-text {
+  padding: 0;
+  margin: 0 1.5em;
+}
+
+.infocard-picture img {
+  width: 20em;
+  border-radius: 0 15px 15px 0;
+  float: left;
+}
+
+.area-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.game-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2em;
+}
+
+.game-list-container b {
+  margin-bottom: 2em;
+}
+
+.game-list-item-and-edit-button {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #d8dee9;
+  border-radius: 10px;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  min-width: 25em;
+}
+
+#edit-button {
+  border-radius: 10px;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  background-color: #808080;
+  color: white;
+  margin-left: 1em;
+}
+
+#edit-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.game-list-item:hover {
+  background-color: #5e81ac;
+  color: white;
+  cursor: pointer;
+}
+
+#game-list-item-date-cell {
+  width: 10em;
+}
+
+#game-list-item-players-cell {
+  width: 10em;
+}
+
+.watch-area-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+#title-and-board-and-table {
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  align-items: flex-start;
+}
+
+#reglog > form {
+  flex-direction: column;
+  align-items: center;
+}
+
+#reglog > form p {
+  font-weight: bold;
+  margin-bottom: 0.75em;
+}
+
+#reglog > form input {
+  margin-top: 1em;
+}
+
+#reglog > form input[type="submit"] {
+  margin-top: 2em;
+}
+
+form input,
+select {
+  font-family: "Philosopher", sans-serif;
+  font-size: 0.9em;
+  padding: 0.9em;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+  width: 12em;
+  background-color: #d8dee9;
+}
+
+#game-input-submit {
+  display: flex;
+  justify-content: center;
+}
+
+#game-input-left-half input[type="text"],
+#game-input-left-half select {
+  margin-bottom: 1em;
+}
+
+select {
+  border-radius: 0;
+}
+
+form input[type="submit"] {
+  margin-top: 1.1em;
+  background-color: #5e81ac;
+  padding: 1.1em;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.input-error {
+  font-size: 0.9em;
+  text-align: center;
+  color: red;
+  width: 12em;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 0.5em;
+  font-weight: bold;
+}
+
+fieldset div.input-error {
+  margin-bottom: 0.75em;
+}
+
+#username {
+  margin-left: 0.35em;
+}
+
+/* game input */
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset input {
+  width: 7.75em;
+  text-align: center;
+}
+
+fieldset select {
+  width: 9.5em;
+  text-align: center;
+}
+
+#game-input-geninfo-container {
+  border: none;
+}
+
+.label-and-field label {
+  display: inline-block;
+  width: 5em;
+  font-size: 0.9em;
+}
+
+.label-and-field {
+  margin-bottom: 1em;
+}
+
+#input-movements-container {
+  margin-left: 2em;
+}
+
+legend {
+  font-size: 0.9em;
+}
+
+.number-and-move {
+  padding: 0.4em 0;
+}
+
+.number-and-move label {
+  display: inline-block;
+  width: 2em;
+  font-size: 0.9em;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-left: 0.5em;
+}
+
+.number-and-move input {
+  width: 3em;
+  padding: 0.4em 0.8em;
+  margin-right: 0.7em;
+}
+
+#game-input-move-controls {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+#game-input-move-controls button {
+  font-family: "Philosopher", sans-serif;
+  color: white;
+  font-size: 0.9em;
+  background-color: #808080;
+  border-radius: 10px;
+  padding: 0.5em 0.6em;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 6.5em;
+}
+
+#game-input-move-controls button:hover {
+  background-color: black;
+  color: white;
+}
+
+#game-input-title {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  margin-bottom: 1em;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-profile {
+  background-color: white;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  min-width: 12em;
+}
+
+.player-profile-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.player-profile-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-profile-games {
+  display: flex;
+  flex-direction: row;
+}
+
+.player-profile-games div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 0.35em;
+}
+
+.player-profile-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.75em;
+  margin-top: 1em;
+}
+
+.player-profile-name div,
+.player-profile-games div {
+  margin-bottom: 0.5em;
+}
+
+.edit-disabled {
+  display: none;
+}
+
+.edit-hidden {
+  visibility: hidden;
+}
+
+.edit-showing {
+  visibility: visible;
+}
+
+.log-container {
+  width: 44em;
+}
+
+.log-line {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.log-line div {
+  text-align: center;
+  width: 33%;
+}
+/* 
+.log-line:hover {
+  background-color: #81a1c1;
+  color: white;
+} */
+
+.registro-de-partida {
+  background-color: #d08770;
+}
+
+.registro-de-usuario {
+  background-color: #a3be8c;
+}
+
+.ingreso-de-usuario {
+  background-color: #ebcb8b;
+}
+
+.egreso-de-usuario {
+  background-color: #bf616a;
+}
+
+.publicacion-de-anuncio {
+  background-color: #88c0d0;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-item {
+  background-color: white;
+  width: 40em;
+  max-width: 70%;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 0;
+  margin-bottom: 1.5em;
+}
+
+.news-item-title {
+  margin: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-item-body {
+  margin: 1.5em;
+}
+
+.news-item-date {
+  margin: 1.5em;
+  text-align: center;
+}
+
+.label-margin {
+  display: flex;
+  align-items: center;
+}
+
+.label-margin label {
+  margin-right: 1.5em;
+}
+
+input[name="title"] {
+  width: 12em;
+}
+
+textarea {
+  resize: none;
+  height: 10em;
+  font-family: "Philosopher", sans-serif;
+  font-size: 0.9em;
+  padding: 0.9em;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+  width: 12em;
+  background-color: #d8dee9;
+}
+
+.user-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2em;
+}
+
+.user-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-line-header {
+  font-weight: bold;
+}
+
+.user-line div {
+  display: flex;
+  width: 12em;
+  text-align: center;
+  justify-content: center;
+  line-height: 2em;
+}
+
+.bold-for-admin {
+  font-weight: bold;
+}
+
+.grey-for-nonadmin {
+  color: grey;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.technology {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool-logo {
+  height: 100px;
+  width: 100px;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.tool-subtitle {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
