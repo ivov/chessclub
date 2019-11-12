@@ -37,12 +37,12 @@ Features:
 1. Install [Node](https://nodejs.org/en/download/) and clone repo
 2. Get server dependencies: `npm install`
 3. Get client dependencies: `cd client && npm install`
-4. Create PostgreSQL db using the SQL statements provided in `demo/sql`
-5. Create an `.env` with `JWT_KEY=whatever` and `DEV_CONNSTRING=connString`
+4. Create PostgreSQL db using the `.sql` files provided in `demo/sql`
+5. Create an `.env` with `JWT_KEY=whatever` and `DEV_CONNSTRING=...` (\*)
 6. Test: `npm run test` (optional)
 7. Run server and client: `npm run dev`
 
-Example connection string:
+(\*) Example connection string:
 
     "postgresql://john:abc123@localhost:5432/chess_db"
 
