@@ -1,6 +1,6 @@
 # chessclub
 
-![](https://img.shields.io/badge/version-1.0.0-blue) ![](https://img.shields.io/github/last-commit/ivov/chessclub) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![](https://img.shields.io/github/last-commit/ivov/chessclub) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Full-stack web app for managing a neighborhood chess club.
 
